@@ -1,3 +1,12 @@
-@import 'helpers/scaffolding.styl'
-@import 'helpers/variables.styl'
-@import 'helpers/mixins.styl'
+@import 'helpers/scaffolding';
+@import 'helpers/variables';
+@import 'helpers/mixins';
+@import "../blocks/container/container";
+@import "../blocks/header/header";
+@import "../blocks/logo/logo";
+@import "../blocks/header/navigation/navigation";
+@import "../blocks/content/product-description/product-description";
+@import "../blocks/content/citation/citation";
+@import "../blocks/content/information/information";
+@import "../blocks/content/content-wrapper/content-wrapper";
+@import "../blocks/footer/footer";
