@@ -1,0 +1,42 @@
+.footer{
+  padding-top: 45px;
+  padding-bottom: 200px;
+  background-color: $clr-geraldine;
+}
+
+.footer .container{
+  display: flex;
+  flex-direction: row;
+}
+
+.footer--left{
+  width: 125px;
+  padding-right: 185px;
+}
+
+.footer--right{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.footer a,
+.footer p {
+  font-size: 12px;
+  line-height: 24px;
+  color: $clr-white;
+}
+
+.footer p {
+  padding-top: 35px;
+}
+
+.footer__category{
+  display: block;
+  // margin-right: 55px;
+}
+
+
+.footer__category-title{
+  font-weight: 700;
+}
