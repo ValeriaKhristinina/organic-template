@@ -1,0 +1,21 @@
+.product-description {
+  width: 400px;
+  padding-top: 120px;
+  padding-bottom: 375px;
+
+}
+
+.product-description__slogan{
+  font-size: 52px;
+  line-height: 62px;
+  font-weight: 300px;
+  margin-bottom: 25px;
+  color: $clr-white;
+  text-shadow: 0px 1px 1px $clr-black;
+  }
+
+.product-description__description{
+  font-size: 14px;
+  color: $clr-white;
+  text-shadow: 0px 1px 1px $clr-black;
+}

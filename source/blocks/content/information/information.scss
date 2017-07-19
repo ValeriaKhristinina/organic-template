@@ -1,0 +1,16 @@
+.information{
+  width: 590px;
+  padding-left: 60px;
+  border-left: 1px solid $clr-whisper;
+
+  h3{
+    font-size: 24px;
+    padding-bottom: 25px;
+    color: $clr-neon-carrot;
+  }
+
+  p{
+    line-height: 28px;
+    color: $clr-slate-grey;
+  }
+}
