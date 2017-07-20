@@ -6,16 +6,26 @@
 
 .footer .container{
   display: flex;
-  flex-direction: row;
+  // flex-direction: row;
+  // flex-wrap: wrap;
+
+}
+
+@media (max-width: 400px){
+  .footer .container{
+    flex-wrap: wrap;
+  }
 }
 
 .footer--left{
   width: 125px;
-  padding-right: 185px;
+  margin-right: 185px;
+  margin-bottom: 15px;
 }
 
 .footer--right{
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   width: 100%;
 }
@@ -32,7 +42,9 @@
 }
 
 .footer__category{
-  display: block;
+  margin-bottom: 15px;
+  // display: block;
+
   // margin-right: 55px;
 }
 

@@ -1,9 +1,12 @@
 include ../logo/logo.jade
 include navigation/navigation.jade
+include product-description/product-description.jade
 
 
 mixin header
-  header.header
+  header.header.header--background-img
+    .header__transparent-border
+    +logo
     .container
-      +logo
       +navigation
+      +product-description

@@ -1,5 +1,21 @@
 .header{
-  padding: 20px 0;
-  // margin-bottom: 120px;
-  background-color: $clr-jelly-bean;
+  position: relative;
+  box-sizing: border-box;
+  padding-top: 20px;
+  background: url('/img/img-9857.jpg') no-repeat;
+}
+
+.header--background-img{
+  background-size: cover;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% calc(100% - 30px));
+}
+
+.header__transparent-border{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 45px;
+  background-color: rgba(255, 255, 255, 0.5);
+
 }

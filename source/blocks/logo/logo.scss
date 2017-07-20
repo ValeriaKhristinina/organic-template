@@ -1,8 +1,20 @@
 .logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: absolute;
-  left: 25px;
+  left: 50px;
   width: 73px;
   height: 73px;
+
+  background-color: $clr-white;
   // background: url('../img/logo.png') cover;
   // background-color: $clr-jelly-bean;
+
+}
+
+@media (max-width: 1168px){
+  .logo{
+    display: none;
+  }
 }
